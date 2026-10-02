@@ -1,0 +1,16 @@
+## Chapter 4: AI Risk Assessment, Appetite, and Treatment — Flashcards
+
+| # | Front (Question) | Back (Answer) |
+|---|-----------------|---------------|
+| 1 | NIST AI RMF 1.0 — four core functions? | Govern, Map, Measure, Manage. Exam tip: 'Govern' underpins all others and is the only function applied continuously across the AI lifecycle. |
+| 2 | Four AI risk treatment options? | Avoid (halt use case), Mitigate (add controls, e.g., RAG grounding, guardrails), Transfer (contract/insurance/indemnification), Accept (formally sign off residual risk). Exam tip: treatment choice must match root cause, not just symptom. |
+| 3 | Risk appetite vs. risk tolerance vs. risk capacity? | Appetite = amount of risk willing to pursue (strategic); Tolerance = acceptable deviation around appetite (operational bands); Capacity = maximum risk the org can absorb before failure. Exam tip: appetite is set by leadership, tolerance operationalizes it. |
+| 4 | Residual risk formula? | Residual Risk = Inherent Risk − Control Effectiveness. Exam tip: residual risk must be compared against appetite threshold before acceptance sign-off. |
+| 5 | AI-specific fields to add to a traditional risk register? | Model version/lineage, training data provenance, drift monitoring trigger, retraining cadence, explainability method, human-in-the-loop checkpoint. Exam tip: traditional CIA fields alone are insufficient for AI risk registers. |
+| 6 | 5x5 risk matrix scoring? | Likelihood (1-5) × Impact (1-5) = Risk Score (1-25). Exam tip: appetite statements define a numeric escalation threshold (e.g., >15 requires executive sign-off). |
+| 7 | Key difference: AI risk assessment vs. traditional IT risk assessment | AI assessment adds emergent behavior, model drift, and non-deterministic output risk on top of standard confidentiality/integrity/availability risk. Exam tip: applies to both structured-data ML and unstructured-data GenAI models. |
+| 8 | Portfolio-level AI risk prioritization criteria (in order of exam emphasis)? | Business impact, autonomy level, data sensitivity, and reach/scale of use. Exam tip: prioritize by combined risk score, never by deployment date or alphabetical order. |
+| 9 | ISO/IEC 23894:2023 — what is it? | Guidance standard for AI risk management, extending ISO 31000 principles to AI-specific risk sources. Exam tip: pairs with ISO/IEC 42001 (management system) rather than replacing it. |
+| 10 | ISO/IEC 42001:2023 vs. NIST AI RMF 1.0? | ISO 42001 = certifiable AI management system standard (like ISO 27001 for AI); NIST AI RMF = non-certifiable voluntary framework organized by Govern/Map/Measure/Manage functions. Exam tip: commonly confused — know which is certifiable. |
+| 11 | Why is 'transfer' alone often insufficient for AI risk? | Indemnification/insurance addresses financial liability but not reputational, ethical, or operational continuity harm. Exam tip: transfer usually must be paired with mitigation (e.g., fallback model) for AI vendor risk. |
+| 12 | Relationship between use-case criticality and risk tolerance? | Inverse relationship — higher criticality (e.g., autonomous credit decisioning) requires lower risk tolerance; lower criticality (internal productivity tools) permits higher tolerance. Exam tip: never apply a uniform threshold across all use cases. |
